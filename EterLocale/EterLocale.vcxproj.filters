@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="StringUtility">
+      <UniqueIdentifier>{1492bceb-f1ba-4b4e-8423-c3b1f36f8a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{7045d4f5-c2a9-4e60-aae8-b80298ea8ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringCodec">
+      <UniqueIdentifier>{02b3e99b-3e4d-4059-b1fe-78afce126815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arabic.cpp">
+      <Filter>StringUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="Japanese.cpp">
+      <Filter>StringUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCodec.cpp">
+      <Filter>StringCodec</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCodec_Vietnamese.cpp">
+      <Filter>StringCodec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arabic.h">
+      <Filter>StringUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="Japanese.h">
+      <Filter>StringUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="CodePageId.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StringCodec.h">
+      <Filter>StringCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="StringCodec_Vietnamese.h">
+      <Filter>StringCodec</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
